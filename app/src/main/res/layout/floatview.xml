@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="时间戳："
+        android:textColor="#EA5246"
+        android:textStyle="bold|italic"
+        android:background="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text=""
+        android:layout_toRightOf="@id/tv1"
+        android:textColor="#EA5246"
+        android:textStyle="bold|italic"
+        android:background="#000000"
+        android:textSize="18sp" />
+    
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/gw_start"
+        android:layout_toRightOf="@id/tv2"/>
+
+
+</RelativeLayout>
